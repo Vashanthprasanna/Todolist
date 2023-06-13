@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+</head>
+
+<body class="container">
+  <div id="center">
+    <h1>To-Do List</h1>
+    <form id="todo-form" method="get">
+      <input id="in" type="text"><br>
+      <div class="btn">
+        <button style="background-color: #f3f93b;" type="submit" onclick="addlist()">Add</button>
+        <button style="background-color: #ff0060;color: white;" type="button" onclick="dellsttag()">Delete</button>
+      </div>
+
+      <ol id="list">
+      </ol>
+    </form>
+  </div>
+</body>
+
+</html>
